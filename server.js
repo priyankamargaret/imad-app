@@ -74,7 +74,7 @@ function creatTemplate (data) {
     return htmlTemplate;
 }
     
-app.get('/', function (req, res) {
+app.get('/counter', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
